@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+
+
+.container {
+    color: rgb(253, 253, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+
+
+
+
+span {
+    background-color: #252539;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
